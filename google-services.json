@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "202224878520",
+    "firebase_url": "https://kiranadoorstep-6058e.firebaseio.com",
+    "project_id": "kiranadoorstep-6058e",
+    "storage_bucket": "kiranadoorstep-6058e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202224878520:android:362e588bee10c5b1",
+        "android_client_info": {
+          "package_name": "com.kiranadoorstep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202224878520-b53m3fj8b8jmatb8r0cilsrhp8l6hu2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kiranadoorstep",
+            "certificate_hash": "33fb6eef8e76c1dae882f51634ee081d4fe1a783"
+          }
+        },
+        {
+          "client_id": "202224878520-iuh5pedio8hic6he0hi4qlen0jihvogf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD0kQI-a79FbzRjQ-xx9qd_Q4uvJ2JIfg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202224878520-iuh5pedio8hic6he0hi4qlen0jihvogf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

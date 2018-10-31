@@ -1,0 +1,40 @@
+<ion-header class="bg-thime">
+    <ion-navbar>
+        <button float-right ion-button style="display: block  !important; background: none;" (click)="menuToggle()">
+            <img src="assets/imgs/ic_menu.png">
+        </button>
+        <ion-title>
+            <div class="logo">{{appTitle}}</div>
+            <div class="icon-box" (click)="cartPage()">
+                <img src="assets/imgs/ic_my_cart.png">
+                <ion-badge>{{cartTotal}}</ion-badge>
+            </div>
+        </ion-title>
+    </ion-navbar>
+    <ion-searchbar (ionInput)="getItems($event)" placeholder="{{ 'placeholder_search' | translate }}" (click)="searchPage()"></ion-searchbar>
+    <ion-list>
+        <ion-item *ngFor="let item of items">
+        </ion-item>
+    </ion-list>
+</ion-header>
+
+<ion-content style="background: #f9f9f9;">
+    <ion-slides autoplay="2000" loop="true" pager *ngIf="banners && banners.length" dir="ltr">
+        <ion-slide *ngFor="let slide of banners">
+            <img [src]="slide.img_src" class="slide-image" (click)="categoryPageId(slide.category)" />
+        </ion-slide>
+    </ion-slides>
+    <h4 text-center>{{ 'home_cat_title' | translate }}</h4>
+
+    <div class="bg-white">
+        <ion-row>
+            <ion-col class="item-boxs" col-4 *ngFor="let cat of categoriesAll" (click)="categoryPage(cat)">
+                <div class="item-box">
+                    <img *ngIf="cat.image != null" data-src="{{cat.image.src}}">
+                    <img *ngIf="cat.image == null" src="assets/imgs/beverages.png">
+                    <p [innerHTML]="cat.name"></p>
+                </div>
+            </ion-col>
+        </ion-row>
+    </div>
+</ion-content>

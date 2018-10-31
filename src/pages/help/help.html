@@ -1,0 +1,32 @@
+<ion-header class="bg-thime">
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <img src="assets/imgs/ic_menu.png">
+        </button>
+        <ion-title>{{ 'nav_title_help_center' | translate }}
+            <!-- <span float-right>
+                <ion-icon name="ios-cart-outline" class="icon" (click)="cartPage()"></ion-icon>
+            </span> -->
+        </ion-title>
+    </ion-navbar>
+    <!--    <ion-searchbar (ionInput)="getItems($event)" (click)="searchPage()"></ion-searchbar>-->
+    <ion-list>
+        <ion-item *ngFor="let item of items">
+            {{ item }}
+        </ion-item>
+    </ion-list>
+</ion-header>
+
+<ion-content class="bg-light">
+    <h6 padding-left>{{ 'faq' | translate }}</h6>
+    <ion-card *ngFor="let faq of faqs">
+        <ion-card-header (click)="faqExpandToggle(faq)">
+            {{faq.title}}
+            <ion-icon *ngIf="!faq.selected" name="ios-arrow-down-outline" float-right></ion-icon>
+            <ion-icon *ngIf="faq.selected" name="ios-arrow-up-outline" float-right></ion-icon>
+        </ion-card-header>
+        <ion-card-content *ngIf="faq.selected" class="text-light">
+            {{faq.message}}
+        </ion-card-content>
+    </ion-card>
+</ion-content>

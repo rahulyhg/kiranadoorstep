@@ -1,0 +1,170 @@
+[
+  {
+    "title": "How do I register?",
+    "message": "You can register by clicking on the \"Sign Up\" link at the top right corner of the homepage. Please provide the information in the form that appears. You can review the terms and conditions, provide your payment mode details and submit the registration information."
+  },
+  {
+    "title": "Are there any charges for registration?",
+    "message": "No. Registration on gro45.com is absolutely free."
+  },
+  {
+    "title": "Do I have to necessarily register to shop on gro45?",
+    "message": "You can surf and add products to the cart without registration but only registered shoppers will be able to checkout and place orders. Registered members have to be logged in at the time of checking out the cart, they will be prompted to do so if they are not logged in."
+  },
+  {
+    "title": "Can I have multiple registrations?",
+    "message": "Each email address and contact phone number can only be associated with one gro45 account."
+  },
+  {
+    "title": "Can I add more than one delivery address in an account?",
+    "message": "Yes, you can add multiple delivery addresses in your gro45 account. However, remember that all items placed in a single order can only be delivered to one address. If you want different products delivered to different address you need to place them as separate orders."
+  },
+  {
+    "title": "Can I have multiple accounts with same mobile number and email id?",
+    "message": "Each email address and phone number can be associated with one gro45 account only. Can I have multiple accounts for members in my family with different mobile number and email address but same or common delivery address? Yes, we do understand the importance of time and the toil involved in shopping groceries. Up to three members in a family can have the same address provided the email address and phone number associated with the accounts are unique. Can I have different city addresses under one account and still place orders for multiple cities? No,Presently we are avaliable in Rajampet only.In Future We will expand."
+  },
+  {
+    "title": "What is My Account?",
+    "message": "My Account is the section you reach after you log in at gro45.com. My Account allows you to track your active orders, credit note details as well as see your order history and update your contact details."
+  },
+  {
+    "title": "How do I reset my password?",
+    "message": "You need to enter your email address on the Login page and click on forgot password. An email with a reset password will be sent to your email address. With this, you can change your password. In case of any further issues please contact our customer support team."
+  },
+  {
+    "title": "What are credit notes & where can I see my credit notes?",
+    "message": "Credit notes reflect the amount of money which you have pending in your gro45 account to use against future purchases. This is calculated by deducting your total order value minus undelivered value. You can see this in “My Account” under credit note details."
+  },
+  {
+    "title": "What is My Shopping List?",
+    "message": "My Shopping List is a comprehensive list of all the items previously ordered by you on gro45.com. This enables you to shop quickly and easily in future."
+  },
+  {
+    "title": "What are the modes of payment?",
+    "message": "You can pay for your order on gro45.com using the following modes of payment: a. Cash on delivery b. Credit and debit cards (VISA / Mastercard)"
+  },
+  {
+    "title": "Are there any other charges or taxes in addition to the price shown? Is VAT added to the invoice?",
+    "message": "There is no VAT. However, GST will be applicable as per Government Regulizations."
+  },
+  {
+    "title": "Is it safe to use my credit/ debit card on gro45?",
+    "message": "Yes it is absolutely safe to use your card on gro45.com. A recent directive from RBI makes it mandatory to have an additional authentication pass code verified by VISA (VBV) or MSC (Master Secure Code) which has to be entered by online shoppers while paying online using visa or master credit card. It means extra security for customers, thus making online shopping safer"
+  },
+  {
+    "title": "What is the meaning of cash on delivery?",
+    "message": "Cash on delivery means that you can pay for your order at the time of order delivery at your doorstep."
+  },
+  {
+    "title": "If I pay by credit card how do I get the amount back for items not delivered?",
+    "message": "If we are not able to delivery all the products in your order and you have already paid for them online, the balance amount will be refunded to your gro45 account as store credit and you can use it at any time against your future orders. Should you want it to be credited to your bank account please contact our customer support team and we will refund it back on to your card."
+  },
+  {
+    "title": "Where do I enter the coupon code?",
+    "message": "Once you are done selecting your products and click on checkout you will be prompted to select delivery slot and payment method. On the payment method page there is a box where you can enter coupon code that you have. The amount will automatically be deducted from your invoice value."
+  },
+  {
+    "title": "When will I receive my order?",
+    "message": "Once you are done selecting your products and click on checkout you will be prompted to select delivery slot. Your order will be delivered to you on the day."
+  },
+  {
+    "title": "How will the delivery be done?",
+    "message": "We have a dedicated team of delivery personnel and a fleet of vehicles operating across the city which ensures timely and accurate delivery to our customers."
+  },
+  {
+    "title": "How do I change the delivery info (address to which I want products delivered)?",
+    "message": "You can change your delivery address on our website once you log into your account. Click on “My Account” at the top right hand corner and go to the “Update My Profile” section to change your delivery address."
+  },
+  {
+    "title": "Do you deliver in my area?",
+    "message": "You will be able to check this detail at the time of checkout when you enter the address. If we are unable to deliver in your area - we will inform you before checkout."
+  },
+  {
+    "title": "Will someone inform me if my order delivery gets delayed?",
+    "message": "In case of a delay, our customer support team will keep you updated about your delivery. Additionally 10% of the order value will be credited to your gro45 account which can be used in your next order"
+  },
+  {
+    "title": "Do you do same day delivery?",
+    "message": "We do same day delivery provided you place your order before 12 noon on the day you want delivery."
+  },
+  {
+    "title": "What is Same Day Delivery?",
+    "message": "gro45 has now started same day delivery. All you have to do is order before 3.00 pm and we will deliver it to you the same day evening*. Any order placed after 3.00 pm will be delivered the next day."
+  },
+  {
+    "title": "Is Same Day Delivery applicable to only a few products or all products?",
+    "message": "The Same day Delivery is applicable to our entire range of products."
+  },
+  {
+    "title": "What is a cut-off time and what are the corresponding cut-off timing for each slot?",
+    "message": "Cut off time is the time after which the order gets processed for delivery. After this time you will not be able to modify or cancel your order."
+  },
+  {
+    "title": "Can I add products after the cut off time for a slot?",
+    "message": "No, you will not be able to make any changes to your order after the cut off time."
+  },
+  {
+    "title": "How do I add or remove products after placing my order?",
+    "message": "Once you have placed your order you will not be able to make modifications on the website. Please contact our customer support team for any modification of order."
+  },
+  {
+    "title": "Is it possible to order an item which is out of stock?",
+    "message": "No you can only order products which are in stock. We try to ensure availability of all products on our website however due to supply chain issues sometimes this is not possible"
+  },
+  {
+    "title": "How do I check the current status of my order?",
+    "message": "The only way you can check the status of your order is by contacting our customer support team."
+  },
+  {
+    "title": "How do I check which items were not available from my order?",
+    "message": "Will someone inform me about the items unavailable in my order before delivery?You will receive an email as well as an sms about unavailable items before the delivery of your order."
+  },
+  {
+    "title": "Why is there an order cancellation fee?",
+    "message": "We charge an order cancellation fee to compensate for the slot, time and effort incurred towards processing an order. Every order placed has to undergo a system driven process as well as a manual process in order to make sure the order reaches our customers on time, every time. In this entire process we incur labor as well as an opportunity cost on the booked order. During the event of a cancellation the entire process has to be stopped and reset. What You Receive Is What You Pay ForAt the time of delivery, we advise you to kindly check every item as in the invoice. Please report any missing item that is invoiced. As a benefit to our customers, if you are not available at the time of order delivery or you haven’t checked the list at the time of delivery we provide a window of 24hrs to report missing items. This is applicable only for items that are invoiced."
+  },
+  {
+    "title": "When and how can I cancel an order?",
+    "message": "No, Once the order Placed will not be Cancelled. If you want to replace the you can contact our customer support team."
+  },
+  {
+    "title": "How do I contact customer service?",
+    "message": "Our customer service team is available throughout the week, all seven days from 7 am to 10 pm. They can be reached at 9206292062 or via email at support@gro45.com"
+  },
+  {
+    "title": "What are your timings to contact customer service?",
+    "message": "Our customer service team is available throughout the week, all seven days from 7 am to 10 pm."
+  },
+  {
+    "title": "How can I give feedback on the quality of customer service?",
+    "message": "Our customer support team constantly strives to ensure the best shopping experience for all our customers. We would love to hear about your experience with gro45. Do write to us feedback@gro45.com in case of positive or negative feedback."
+  },
+  {
+    "title": "How do I raise a claim with customer service for any of the Guarantees - Delivery Guarantee?",
+    "message": "Quality Guarantee?If you face any issues with price, quality or delivery of products we will take every measure to address the issue and make it up to you. Please contact our customer support team with details or your order as well as the issue you faced."
+  },
+  {
+    "title": "Return & Refund",
+    "message": "We have a \"no questions asked return and refund policy\" which entitles all our members to return the product at the time of delivery if due to some reason they are not satisfied with the quality or freshness of the product. We will take the returned product back with us and issue a credit note for the value of the return products which will be credited to your account on the Site. This can be used to pay your subsequent shopping bills"
+  },
+  {
+    "title": "Return Policy - Time Limits",
+    "message": "Perishable goods: Within 24 hours from the delivery date"
+  },
+  {
+    "title": "Do you have offline stores?",
+    "message": "No we are a purely internet based company and do not have any brick and mortar stores. What do I do if an item is defective (broken, leaking, expired)? We have a no questions asked return policy. In case you are not satisfied with a product received you can return it to the delivery personnel at time of delivery or you can contact our customer support team and we will do the needful."
+  },
+  {
+    "title": "How will I get my money back in case of a cancellation or return? What are the modes of refund?",
+    "message": "The amount will be refunded to your gro45.com account to use as store credit in your forthcoming purchases. In case of credit card payments we can also credit the money back to your credit card. Please contact customer support for any further assistance regarding this issue"
+  },
+  {
+    "title": "I am a corporate/ business. Can I place orders with gro45.com?",
+    "message": "Yes, we do bulk supply of products at special prices to institutions such as schools, restaurants and corporates. Please contact as at corporate@gro45.com to know more."
+  },
+  {
+    "title": "CloseI’d like to suggest some products. Who do I contact?",
+    "message": "If you are unable to find a product or brand that you would like to shop for, please write to us at customerservice@gro45.com and we will try our best to make the product available to you."
+  }
+]

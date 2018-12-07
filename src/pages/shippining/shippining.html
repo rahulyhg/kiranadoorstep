@@ -93,8 +93,7 @@
             </ion-card-content>
         </ion-card>
     </div>
-    <div class="spacebar-bottom"></div>
-    <div class="receipt btn-fisx-bottom">
+    <div class="receipt">
         <ion-card>
             <ion-card-header>
                 <p>{{ 'confirm_order_items_price' | translate }}
@@ -117,7 +116,7 @@
                     <span text-right [innerHTML]="total_html">
                     </span>
                 </p>
-                <button ion-button full class="bg-green btn-round green-shadow btn-text" (click)="paymentPage()" style="width:100%">{{ 'continue' | translate }}</button>
+                <button [disabled]="total<1000" ion-button full class="bg-green btn-round green-shadow btn-text" (click)="paymentPage()" style="width:100%">{{submitBtnLbl}}</button>
             </ion-card-content>
         </ion-card>
     </div>

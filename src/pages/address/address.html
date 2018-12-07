@@ -37,19 +37,23 @@
             </ion-item>
 			<ion-item>
                 <ion-label>{{ 'address_city' | translate }}</ion-label>
-                <ion-input type="text" text-right placeholder="{{ 'address_city' | translate }}" [(ngModel)]="address.city"></ion-input>
+                <ion-input type="text" text-right placeholder="{{ 'address_city' | translate }}" [(ngModel)]="address.city" disabled value="Kakinada"></ion-input>
             </ion-item>
 			<ion-item>
                 <ion-label>{{ 'address_state' | translate }}</ion-label>
-                <ion-input type="text" text-right placeholder="{{ 'address_state' | translate }}" [(ngModel)]="address.state"></ion-input>
+                <ion-input type="text" text-right placeholder="{{ 'address_state' | translate }}" [(ngModel)]="address.state" disabled value="Andhra Pradesh"></ion-input>
             </ion-item>
 			<ion-item>
                 <ion-label>{{ 'address_postal' | translate }}</ion-label>
-                <ion-input type="number" text-right placeholder="{{ 'address_postal' | translate }}" [(ngModel)]="address.postcode"></ion-input>
+                <ion-select text-right placeholder="{{ 'address_postal' | translate }}" [(ngModel)]="address.postcode" value="533001">
+                    <ion-option value="533001">533001</ion-option>
+                    <ion-option value="533002">533002</ion-option>
+                    <ion-option value="533003">533003</ion-option>
+                </ion-select>
             </ion-item>
 			<ion-item>
                 <ion-label>{{ 'address_country' | translate }}</ion-label>
-                <ion-input type="text" text-right placeholder="{{ 'address_country' | translate }}" [(ngModel)]="address.country"></ion-input>
+                <ion-input type="text" text-right placeholder="{{ 'address_country' | translate }}" [(ngModel)]="address.country" disabled value="India"></ion-input>
             </ion-item>
         </ion-list>
         <button ion-button full class="bg-thime btn-round btn-text" (click)="saveAddress()">{{ 'save' | translate }}</button>

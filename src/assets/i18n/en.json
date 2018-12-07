@@ -14,6 +14,7 @@
     "nav_title_help_center": "Help Center",
     "nav_title_my_account": "My Account",
     "nav_title_my_cart": "My Cart",
+    "nav_title_language": "Language",
     "logout_title": "Logout",
     "logout_message": "Are you sure you want to logout?",
     "yes": "Yes",
@@ -149,5 +150,6 @@
     "address_country": "Country",
     "save": "Save",
     "or_continue_with": "Or continue with",
-    "select": "Select"
+    "select": "Select",
+    "error_Min_Payment": "Minimun Total is 1000 Rupees"
 }

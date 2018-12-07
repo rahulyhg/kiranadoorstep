@@ -79,7 +79,7 @@
     </div>
     <!-- Variations end -->
 
-    <div *ngIf="product" class="about-section shadow-bottom bg-white">
+    <div *ngIf="product && product.description" class="about-section shadow-bottom bg-white">
         <h3>{{ 'about_product' | translate }}</h3>
         <p [innerHTML]="product.description">
         </p>

@@ -47,6 +47,7 @@ export class MyApp {
 	pages: Array<{ title: string, component: any }>;
 	pageCategory: number = 1;
 	user: UserResponse;
+	private languageFlag:boolean = false;
 
 	constructor(@Inject(APP_CONFIG) private config: AppConfig, private globalization: Globalization, private device: Device, public translate: TranslateService, private events: Events, private alertCtrl: AlertController, private service: WordpressClient, public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, private oneSignal: OneSignal) {
 		let superAuth = "";
@@ -181,6 +182,7 @@ export class MyApp {
 				this.translate.use('en');
 				this.setDirectionAccordingly('en');
 			}
+			this.languageFlag = true;
 		});
 	}
 
@@ -237,9 +239,10 @@ export class MyApp {
 	}
 
 	getSuitableLanguage(language) {
-		language = language.substring(0, 2).toLowerCase();
-		console.log('check for: ' + language);
-		return this.config.availableLanguages.some(x => x.code == language) ? language : 'en';
+		// language = language.substring(0, 2).toLowerCase();
+		// console.log('check for: ' + language);
+		// return this.config.availableLanguages.some(x => x.code == language) ? language : 'en';
+		return 'en';
 	}
 
 	actionNavHeader() {
@@ -330,5 +333,9 @@ export class MyApp {
 			});
 			alert.present();
 		});
+	}
+
+	languagePopup(){
+		this.languageFlag=true;
 	}
 }

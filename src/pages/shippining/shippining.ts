@@ -33,6 +33,7 @@ export class ShippiningPage {
 	private currencyIcon: string = '';
 	private currencyText: string = '';
 	private coupon: Coupon;
+	private submitBtnLbl:string = ''; 
 
 	constructor(public translate: TranslateService, public modalCtrl: ModalController, public navCtrl: NavController, private navParams: NavParams, private global: Global, private toastCtrl: ToastController) {
 		let product: Product = this.navParams.get('pro');
@@ -56,6 +57,15 @@ export class ShippiningPage {
 		}
 		this.deliveryPayble = this.currencyIcon + ' ' + this.deliveryPayble;
 		this.calculateTotal();
+		if(this.total>=1000){
+			this.translate.get('continue').subscribe(value =>{
+				this.submitBtnLbl = value;
+			});
+		} else {
+			this.translate.get('error_Min_Payment').subscribe(value =>{
+				this.submitBtnLbl = value;
+			});
+		}
 	}
 
 	ionViewDidEnter() {
@@ -102,6 +112,7 @@ export class ShippiningPage {
 			} else {
 				this.total = this.total - Number(product.sale_price);
 				this.total_html = this.currencyIcon + ' ' + this.total;
+				this.calculateTotal();
 			}
 		} else {
 			let pos: number = -1;
@@ -128,13 +139,13 @@ export class ShippiningPage {
 			this.navCtrl.pop();
 		}
 	}
-
 	incrementItem(product) {
 		if (this.editMainCart) {
 			var incremented: boolean = this.global.incrementCartItem(product);
 			if (incremented) {
 				this.total = this.total + Number(product.sale_price);
 				this.total_html = this.currencyIcon + ' ' + this.total;
+				this.calculateTotal();
 			}
 		} else {
 			let pos: number = -1;
@@ -174,6 +185,15 @@ export class ShippiningPage {
 		this.total = Math.round( this.total * 100 + Number.EPSILON ) / 100;
 		this.total_items_html = this.currencyIcon + ' ' + this.total_items;
 		this.total_html = this.currencyIcon + ' ' + this.total;
+		if(this.total>=1000){
+			this.translate.get('continue').subscribe(value =>{
+				this.submitBtnLbl = value;
+			});
+		} else {
+			this.translate.get('error_Min_Payment').subscribe(value =>{
+				this.submitBtnLbl = value;
+			});
+		}
 	}
 
 	removeCoupon() {

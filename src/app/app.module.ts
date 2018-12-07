@@ -48,6 +48,7 @@ import { PhonePage } from '../pages/phone/phone';
 import { Facebook } from '@ionic-native/facebook'
 import { GooglePlus } from '@ionic-native/google-plus';
 import { OneSignal } from '@ionic-native/onesignal';
+import { ComponentsModule } from '../components/components.module';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -98,7 +99,8 @@ export function createTranslateLoader(http: HttpClient) {
         useFactory: createTranslateLoader,
         deps: [HttpClient]
       }
-    })
+    }),
+    ComponentsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

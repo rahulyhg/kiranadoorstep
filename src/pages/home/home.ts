@@ -59,11 +59,12 @@ export class HomePage {
 
   setupCategories() {
     let categories: Array<Category> = JSON.parse(window.localStorage.getItem(Constants.PRODUCT_CATEGORIES_PARENT));
+    console.log('categories',categories);
     let cats = new Array<Category>();
     for (let cat of categories) {
-      if (cats.length == 8) {
+      /* if (cats.length == 8) {
         break;
-      }
+      } */
       if (Number(cat.parent) == 0) {
         cats.push(cat);
       }

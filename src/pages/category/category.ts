@@ -86,6 +86,8 @@ export class CategoryPage {
 
 	showCats(cats) {
 		this.catsToShow = cats;
+		// document.documentElement.scrollTop = 0;
+		window.scroll(0,0);
 	}
 
 	shirtsPage(cat: Category) {

@@ -87,19 +87,23 @@
     <div *ngIf="product && product.type == 'simple'" style="height: 60px"></div>
     <div *ngIf="product && product.type == 'simple'" class="price-section shadow-bottom bg-white">
         <div class="d-flex">
-            <div *ngIf="product.regular_price != product.sale_price" class="price text-light" padding-right [innerHTML]="product.regular_price_html">
+            <div class="rate">
+                <div style="display: flex;" class="price-box">
+                    <div *ngIf="product.regular_price != product.sale_price" class="price text-light" padding-right [innerHTML]="product.regular_price_html">
+                    </div>
+                    <div class="price text-sky" [innerHTML]="product.sale_price_html">
+                    </div>
+                </div>
             </div>
-            <p class="d-flex" [innerHTML]="product.sale_price_html">
+            <p text-right class="card-bottom">
+                <button ion-button class="small button btn-round bg-green" text-right (click)="buyNow()">{{
+                    'buy_now' | translate }}</button>
             </p>
-            <div class="d-flex btn-grup text-white bg-thime green-shadow" style="font-size: 1.8rem;
-                font-weight: 400;
-                text-align: center;
-                border-radius: 5px;
-                line-height: 3.5rem;
-				padding: .2rem 1.5rem"
-                (click)="buyNow()">
-                {{ 'buy_now' | translate }}
-            </div>
+            
+            <p class="card-bottom">
+                <button ion-button class="small button btn-round" text-right (click)="addVariation(product)">{{
+                    'add_to_cart' | translate }}</button>
+            </p>
         </div>
     </div>
 </ion-content>

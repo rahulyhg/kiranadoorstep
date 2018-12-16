@@ -192,6 +192,7 @@ export class ItemdetailPage {
 
 	addToCart() {
 		if (this.product.in_stock && this.product.purchasable) {
+			console.log('product tobe added in cart',this.product);
 			let added: boolean = this.global.addCartItem(this.product);
 			if (added) {
 				this.cartTotal = this.cartTotal + 1;

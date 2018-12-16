@@ -62,6 +62,7 @@ export class Myorder_2Page {
 			}
 			this.dismissLoading();
 			this.orders = data;
+			console.log('orders',JSON.stringify(this.orders[0]));
 		}, err => {
 			this.dismissLoading();
 		});

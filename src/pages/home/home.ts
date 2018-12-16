@@ -69,6 +69,11 @@ export class HomePage {
         cats.push(cat);
       }
     }
+    cats.sort((a, b) => {
+      if (a.name < b.name) return -1;
+      else if (a.name > b.name) return 1;
+      else return 0;
+    });
     this.translate.get('more').subscribe(value => {
       let more = new Category();
       more.name = value;

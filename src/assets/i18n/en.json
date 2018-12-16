@@ -151,5 +151,7 @@
     "save": "Save",
     "or_continue_with": "Or continue with",
     "select": "Select",
-    "error_Min_Payment": "Minimun Total is 1000 Rupees"
+    "error_Min_Payment": "Minimun Total is 1000 Rupees",
+    "no_products": "No products available right now \n please visit later",
+    "no_products_search": "No products found"
 }

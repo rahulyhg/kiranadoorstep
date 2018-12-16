@@ -32,12 +32,12 @@ export interface AppConfig {
 
 export const BaseAppConfig: AppConfig = {
 	appName: "Kirana Doorstep",
-	apiBase: "http://www.kiranadoorstep.com/wp-json/",
+	apiBase: "https://www.kiranadoorstep.com/wp-json/",
 	perPage: "5",
-	consumerKey: "",
-	consumerSecret: "",
-	adminUsername: "kiranadoorstep.info@gmail.com",
-	adminPassword: "Srk311995@",
+	consumerKey: "ck_7166c6767460f4d5bdc887a058c023a11d23b457",
+	consumerSecret: "cs_c4799f97e050d7141a41f23fe13fbb89dffe0355",
+	adminUsername: "",
+	adminPassword: "",
 	oneSignalAppId: "e80241a0-388e-4070-9990-37744b5853cc",
 	oneSignalGPSenderId: "202224878520",
 	paypalSandbox: "",

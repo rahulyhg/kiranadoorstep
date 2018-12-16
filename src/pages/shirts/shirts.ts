@@ -73,8 +73,9 @@ export class ShirtsPage {
 			this.productsResponse = products;
 			let proSplit = new Array<Product>();
 			for (let pro of products) {
-				if (!pro.purchasable || pro.type == 'grouped' || pro.type == 'external')
+				if (!pro.purchasable || pro.type == 'grouped' || pro.type == 'external' || pro.status == 'draft'){
 					continue;
+				}
 				if (proSplit.length == 2) {
 					this.productsAll.push(proSplit);
 					proSplit = new Array<Product>();
@@ -109,7 +110,7 @@ export class ShirtsPage {
 			this.productsResponse = products;
 			let proSplit = new Array<Product>();
 			for (let pro of products) {
-				if (!pro.purchasable || pro.type == 'grouped' || pro.type == 'external')
+				if (!pro.purchasable || pro.type == 'grouped' || pro.type == 'external' || pro.status == 'draft')
 					continue;
 				if (proSplit.length == 2) {
 					this.productsAll.push(proSplit);

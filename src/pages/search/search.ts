@@ -61,9 +61,12 @@ export class SearchPage {
 			this.productsResponse = products;
 			let proSplit = new Array<Product>();
 			let productsAll = new Array<Array<Product>>();
+			console.log('products',products);
+			let index=0;
 			for (let pro of products) {
-				if (!pro.purchasable || pro.type == 'grouped' || pro.type == 'external')
+				if (!pro.purchasable || pro.type == 'grouped' || pro.type == 'external' || pro.status === 'draft'){
 					continue;
+				}
 				if (proSplit.length == 2) {
 					productsAll.push(proSplit);
 					proSplit = new Array<Product>();
@@ -80,6 +83,7 @@ export class SearchPage {
 				}
 				pro.favorite = this.global.isFavorite(pro);
 				proSplit.push(pro);
+				index++;
 			}
 			if (proSplit.length > 0) {
 				productsAll.push(proSplit);

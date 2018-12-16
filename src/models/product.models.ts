@@ -36,4 +36,5 @@ export class Product {
 	images: Array<Image>;
 	image: Image;
 	attributes: Array<ProductAttribute>;
+	status:string;
 }

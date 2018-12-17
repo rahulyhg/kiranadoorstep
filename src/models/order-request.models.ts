@@ -11,5 +11,6 @@ export class OrderRequest {
     billing: Address;
     shipping: Address;
     line_items: Array<CartItem>;
-	shipping_lines: Array<ShippingLine>;
+    shipping_lines: Array<ShippingLine>;
+    status:string;
 }

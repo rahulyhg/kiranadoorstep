@@ -88,6 +88,7 @@ export class PaymentPage {
 			this.orderRequest.payment_method = this.selectedPaymentGateway.id;
 			this.orderRequest.payment_method_title = this.selectedPaymentGateway.title;
 			this.orderRequest.set_paid = false;
+			this.orderRequest.status = 'processing';
 			this.orderRequest.billing = this.selectedAddress;
 			this.orderRequest.shipping = this.selectedAddress;
 			this.user = JSON.parse(window.localStorage.getItem(Constants.USER_KEY));
